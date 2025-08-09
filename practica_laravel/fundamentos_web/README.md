@@ -11,4 +11,12 @@ por ejemplo $nombre = '40' + 1; daria 41 convirtiendo todo en int
 es gradual ya que se pueden especificar los tipos de variables
 
 
+forma correcta de ubicar un if en php
 
+<?php if($isOld) : ?>
+<h2>Eres viejo, lo sentimos </h2>
+<?php elseif($isDev) : ?>
+<h2>A darle con toda </h2>
+<?php else : ?>
+<h2>Eres joven, que crack </h2>
+<?php endif; ?>
